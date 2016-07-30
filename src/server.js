@@ -11,3 +11,5 @@ app.get('/', function(req, res){
 app.listen(port, host, function(){
     console.log("App running @host: " + host + " @port:" + port);
 });
+
+exports.app = app;
