@@ -1,0 +1,9 @@
+language: node_js
+node_js:
+  - "node"
+env:
+  - TEST_DIR=src
+script:
+  - cd $TEST_DIR
+  - npm install
+  - npm test
